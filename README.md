@@ -29,17 +29,17 @@ npm run dev
 ### Interact with endpoints
 Use Postman (or any other REST client) to reach endpoints
 Examples:
-    - List item: 
-        POST http://localhost:3000/items
-        Body: { "name": "Camera", "description": "Sony a7iv digital camera", "pricePerDay": 50 }
-    - Seach item:
-        GET http://localhost:3000/items?name=drill&minPrice=10&maxPrice=20
-    - Rent item:
-        POST http://localhost:3000/rent/1
-        Body: { "startDate": "2025-01-25", "endDate": "2025-01-27" }
-    - Return item:
-        POST http://localhost:3000/return/1
-        Body: { "returnDate": "2025-01-11" }
+- List item: 
+    POST http://localhost:3000/items
+    Body: { "name": "Camera", "description": "Sony a7iv digital camera", "pricePerDay": 50 }
+- Seach item:
+    GET http://localhost:3000/items?name=drill&minPrice=10&maxPrice=20
+- Rent item:
+    POST http://localhost:3000/rent/1
+    Body: { "startDate": "2025-01-25", "endDate": "2025-01-27" }
+- Return item:
+    POST http://localhost:3000/return/1
+    Body: { "returnDate": "2025-01-11" }
 
 ## Run tests
 ```bash
