@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "rootDir": "./src",
+      "outDir": "./dist",
+      "strict": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "types": ["jest", "node"]
+    },
+    "include": ["src/**/*.ts", "src/**/*.test.ts", "src/**/*.spec.ts"]
+  }
